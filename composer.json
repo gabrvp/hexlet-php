@@ -1,0 +1,16 @@
+{
+    "name": "valera/hexlet-php",
+    "description": "example package",
+    "autoload": {
+        "psr-4": {
+            "Valera\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Gabrusevich Valeriy",
+            "email": "gabrvp@yandex.ru"
+        }
+    ],
+    "require": {}
+}
