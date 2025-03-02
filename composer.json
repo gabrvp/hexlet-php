@@ -2,6 +2,9 @@
     "name": "valera/hexlet-php",
     "description": "example package",
     "autoload": {
+    	"files": [
+            "src/Runner.php"
+        ],
         "psr-4": {
             "Valera\\HexletPhp\\": "src/"
         }
@@ -12,5 +15,15 @@
             "email": "gabrvp@yandex.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^12.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.11"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    }
 }
+    
+
